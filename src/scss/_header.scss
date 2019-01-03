@@ -1,0 +1,105 @@
+.header_substrate {
+  height: 57px;
+}
+.header_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#header {
+  height: 57px;
+  display: block;
+  position: fixed;
+  z-index: 9;
+  background-color: $white;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 8px 0 rgba(204,204,204,.75);
+  .header_nav {
+    height: 57px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    .header_logo {
+      a {
+        img {
+          height: 28px;
+          width: 43px;
+        }
+      }
+    }
+    .header_nav_list {
+      font-size: 15px;
+      font-weight: $bold;
+      margin-left: 15px;
+      display: flex;
+      text-align: center;
+      list-style-type: none;
+      li {
+        a {
+          font-family: "Intro", sans-serif;
+          padding: 20px 25px;
+          text-transform: uppercase;
+          position: relative;
+          color: $dark-color;
+          text-decoration: none;
+          transition: all .5s;
+          &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: $accent-color;
+            transform: skew(-20deg);
+            z-index: -1;
+            opacity: 0;
+            transition: all .5s;
+          }
+          &:hover {
+            &::before {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+  .header_nav_aside {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    .mobile-phone {
+      display: none;
+    }
+    .icon {
+      transition: all .5s;
+      a {
+        padding: 10px 12px;
+        transition: all .5s;
+        &:hover {
+          background-color: #ffe900;
+        }
+      }
+    }
+    li {
+      margin: 10px;
+      a {
+        color: $dark-color;
+        text-decoration: none;
+        img {
+          height: 14px;
+          width: 12px;
+        }
+      }
+    }
+  }
+  .hamburger {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+@import "normalize";
+@import "vars";
+@import "header";
+@import "footer";
+@import "main-page";
+@import "woocommerce";
+
+body {
+  color: $dark-color;
+  line-height: 1.65;
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+@import "media";

@@ -1,0 +1,41 @@
+//.collapse_section {
+//  height: 90px;
+//  overflow: hidden;
+//  -webkit-transition: height .5s;
+//  -o-transition: height .5s;
+//  transition: height .5s;
+//  .hide {
+//    opacity: 0;
+//    transition: all .5s;
+//  }
+//}
+//.collapse_section.in {
+//  height: auto;
+//}
+//.collapse_section_wrapper {
+//  display: flex;
+//  flex-direction: column;
+//  align-items: flex-end;
+//  justify-content: center;
+//  .collapse_section {
+//    height: 90px;
+//    overflow: hidden;
+//    order: 0;
+//  }
+//  input[type="checkbox"] {
+//    display: none;
+//  }
+//  input[type="checkbox"]:checked + .collapse_section {
+//    height: auto;
+//  }
+//  label {
+//    order: 1;
+//    color: blue;
+//    text-decoration: underline;
+//    font-size: 18px;
+//    cursor: pointer;
+//  }
+//}
+.main-welcome-bg {
+  color: $white;
+}
