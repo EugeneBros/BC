@@ -36,7 +36,7 @@
                         </a>
                     </li>
                     <li class="icon">
-                        <a href="#loginModal">
+                        <a href="#">
                             <img src="<?php bloginfo('template_url') ?>/src/img/icons/user.svg" alt="Log in">
                         </a>
                     </li>
