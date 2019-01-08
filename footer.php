@@ -1,4 +1,19 @@
 <footer id="footer" class="footer">
+    <div class="footer_subscription">
+       <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="footer_subscription_text"><?php echo get_theme_mod('subscription_text') ?></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer_subscription_form">
+                        <?php echo do_shortcode( '[contact-form-7 id="90" title="Form from footer /ru/"]' ); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -28,18 +43,7 @@
             </ul>
         </div>
     </div>
-<!--    <div class="footer_subscription">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-md-6">-->
-<!--                    <p class="footer_subscription_text">--><?php //echo get_theme_mod('subscription_text') ?><!--</p>-->
-<!--                </div>-->
-<!--                <div class="col-md-6">-->
-<!---->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+
 </footer>
 
 </body>

@@ -1,8 +1,9 @@
 .footer {
-  padding: 50px 0 0;
+  // padding: 50px 0 0;
   background-color: $black;
   color: $grey;
   .footer_nav_wrapper {
+    margin-top: 50px;
     .footer_nav_title {
       text-transform: uppercase;
       margin-bottom: 25px;
@@ -64,26 +65,62 @@
       }
     }
   }
-  //.footer_subscription {
-  //  background-color: $grey;
-  //  padding: 50px 0;
-  //  .footer_subscription_text {
-  //    color: $accent-color;
-  //    font-size: 20px;
-  //    text-transform: uppercase;
-  //    font-weight: 300;
-  //    position: relative;
-  //    padding-left: 80px;
-  //    &::before {
-  //      content: "\f003";
-  //      position: absolute;
-  //      left: 0;
-  //      top: 9px;
-  //      color: #ffe900;
-  //      font-family: FontAwesome;
-  //      font-size: 52px;
-  //      line-height: 42px;
-  //    }
-  //  }
-  //}
+  .footer_subscription {
+   background-color: $accent-color;
+   padding: 50px 0;
+   .footer_subscription_form {
+     .wpcf7-form {
+       .wpcf7-email {
+         padding: 12px 30px;
+          -webkit-transform: skew(-20deg);
+          -ms-transform: skew(-20deg);
+          transform: skew(-20deg);
+          background-color: $white;
+          outline: none;
+          border: none;
+       }
+       .wpcf7-submit {
+        color: $black !important;
+        background-color: transparent !important;
+        font-weight: 600 !important;
+        padding: 12px 25px;
+        text-decoration: none !important;
+        position: relative !important;
+        border: none;
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          border: 2px solid $black !important;
+          background-color: transparent !important;
+          -webkit-transform: skew(-20deg);
+          -ms-transform: skew(-20deg);
+          transform: skew(-20deg);
+          z-index: 1;
+        }
+      }
+     }
+   }
+   .footer_subscription_text {
+     color: $black;
+     font-size: 20px;
+     font-weight: 400;
+     position: relative;
+     padding-left: 80px;
+     line-height: 1.5;
+     &::before {
+        content: "\f003";
+        position: absolute;
+        left: 0;
+        top: 7px;
+        color: $black;
+        font-family: FontAwesome;
+        font-size: 52px;
+        line-height: 42px;
+      }
+    }
+  }
 }
