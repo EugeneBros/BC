@@ -219,7 +219,7 @@ function true_register_post_type_init() {
         'public' => true,
         'show_ui' => true,
         'has_archive' => true,
-//        'menu_icon' => get_stylesheet_directory_uri() .'/img/function_icon.png',
+        // 'menu_icon' => get_stylesheet_directory_uri() .'/img/function_icon.png',
         'menu_position' => 20,
         'supports' => array( 'title', 'editor', 'comments', 'author', 'thumbnail')
     );
