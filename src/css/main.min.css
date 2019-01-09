@@ -349,6 +349,19 @@ div.wpcf7 .ajax-loader {
 .main-product .wpb_column {
   padding: 0 30px; }
 
+.main-blog {
+  width: 100%; }
+  .main-blog h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1f1f1f; }
+  .main-blog .vc_grid .vc_grid-item-mini .vc_gitem-zone-mini h4 {
+    text-align: center !important; }
+  .main-blog .vc_grid .vc_grid-item-mini .vc_gitem-zone-mini .vc_gitem-post-data-source-post_excerpt {
+    display: none; }
+  .main-blog .vc_grid .vc_grid-item-mini .vc_gitem-zone-mini .vc_btn3-left {
+    display: none; }
+
 .main-advantages {
   color: #ffffff;
   position: relative; }
