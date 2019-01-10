@@ -75,6 +75,7 @@
        }
        .wrap-bg-white {
          margin-right: 5px;
+         cursor: text;
         &::before {
           background-color: $white !important;
           z-index: 0 !important;
