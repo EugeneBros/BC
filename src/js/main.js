@@ -42,3 +42,5 @@ quantityProd.on('click', '>span', function(e) {
     e.preventDefault();
     return false;
 });
+
+$("#coupon_code").wrap("<span class='wrap-bg wrap-bg-white'></span>");

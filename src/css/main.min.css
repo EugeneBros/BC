@@ -452,13 +452,22 @@ div.wpcf7 .ajax-loader {
 
 .woocommerce #coupon_code {
   position: relative;
-  padding: 17px 25px;
-  -webkit-transform: skew(-20deg);
-  -ms-transform: skew(-20deg);
-  transform: skew(-20deg);
+  outline: none;
+  border: none;
   width: 200px;
   font-size: 16px; }
 
+.woocommerce .cart-empty {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 40px 0 60px; }
+
+.woocommerce .wc-backward {
+  margin-bottom: 60px !important; }
+
+.woocommerce .wc-backward,
 .summary .single_add_to_cart_button,
 .woocommerce .coupon .button,
 .woocommerce .cart .actions .button,
@@ -472,6 +481,7 @@ div.wpcf7 .ajax-loader {
   -o-transition: all .5s !important;
   transition: all .5s !important;
   position: relative !important; }
+  .woocommerce .wc-backward:before,
   .summary .single_add_to_cart_button:before,
   .woocommerce .coupon .button:before,
   .woocommerce .cart .actions .button:before,
@@ -490,6 +500,7 @@ div.wpcf7 .ajax-loader {
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s; }
+  .woocommerce .wc-backward:hover,
   .summary .single_add_to_cart_button:hover,
   .woocommerce .coupon .button:hover,
   .woocommerce .cart .actions .button:hover,
@@ -498,6 +509,7 @@ div.wpcf7 .ajax-loader {
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s; }
+    .woocommerce .wc-backward:hover:hover:before,
     .summary .single_add_to_cart_button:hover:hover:before,
     .woocommerce .coupon .button:hover:hover:before,
     .woocommerce .cart .actions .button:hover:hover:before,
@@ -583,6 +595,32 @@ div.wpcf7 .ajax-loader {
 
 .woocommerce .cart-collaterals .cart_totals h2 {
   display: none; }
+
+.coupon .wrap-bg {
+  position: relative;
+  background-color: transparent;
+  padding: 19px 25px;
+  cursor: pointer; }
+  .coupon .wrap-bg::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 1px solid #000000 !important;
+    background-color: transparent !important;
+    -webkit-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    transform: skew(-20deg);
+    z-index: 1; }
+
+.coupon .wrap-bg-white {
+  margin-right: 5px;
+  cursor: text; }
+  .coupon .wrap-bg-white::before {
+    background-color: #ffffff !important;
+    z-index: 0 !important; }
 
 body {
   color: #1f1f1f;
