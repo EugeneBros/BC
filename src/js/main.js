@@ -49,7 +49,7 @@ $("#coupon_code").wrap("<span class='wrap-bg wrap-bg-white'></span>");
 $('a.poplight').click(function() {
     var popID = $(this).attr('rel');
     var popURL = $(this).attr('href');
-    $('#' + popID).fadeIn()/*.append('<a href="#" class="close"><span class="close">Х</span></a>')*/;
+    $('#' + popID).fadeIn();
     $('body').append('<div id="fade"></div>');
     $('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn();
     return false;

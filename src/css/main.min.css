@@ -753,7 +753,7 @@ body {
   transition: all .5s !important;
   position: relative !important;
   border: none; }
-  #loginForm .submit button:after {
+  #loginForm .submit button:before {
     content: '';
     position: absolute;
     left: 0;
@@ -767,12 +767,12 @@ body {
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s; }
-  #loginForm .submit button:after {
+  #loginForm .submit button:before {
     color: #ffea29 !important;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s; }
-    #loginForm .submit button:after:hover:before {
+    #loginForm .submit button:before:hover:before {
       -webkit-transform: skew(0deg);
           -ms-transform: skew(0deg);
               transform: skew(0deg);
