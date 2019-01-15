@@ -15,7 +15,136 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-
+#fade {
+	display: none;
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: .80;
+	z-index: 9999;
+}
+.popup_block{
+	left: 39%;
+	margin: 0;
+	position: fixed;
+	top: -5px;
+	z-index: 99999;
+	display: none;
+}
+.close span{
+	margin: 206px 0 0 268px;
+	position: fixed;
+}
+/*--Фиксированное позиционирование для тупого IE6--*/
+#fade {
+	position: absolute;
+}
+.popup_block {
+	position: absolute;
+}
+#loginForm {
+	width: 290px;
+	padding: 24px 24px 0;
+	margin: 200px auto 0;
+	background: #FEFEFE;
+  border: 1px solid #CAD8DE;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+	font: 14px/18px Arial, Tahoma, sans-serif;
+	color: #444;
+}
+#loginForm .field {
+	margin: 0 0 18px;
+}
+#loginForm .field label {
+	display: block;
+	margin: 0 0 11px;
+}
+#loginForm .field .input {
+  border-radius: 4px;
+}
+#loginForm .field input {
+  font: 12px Arial, Tahoma, sans-serif;
+	color: #444;
+	width: 100%;
+	padding: 9px 13px;
+  border: 1px solid #D2D9DC;
+	border-radius: 3px;
+	box-shadow: inset 2px 2px 6px #EBEBEB, 0 0 0 5px #F7F9FA;
+	outline: none;
+}
+#loginForm .field input:focus {
+	border-color: #B7D4EA;
+	box-shadow: inset 2px 2px 6px #EBEBEB, 0 0 4px #D0E6F6, 0 0 0 5px #F2F8FC;
+}
+#forgot {
+	float: right;
+  font-size: 11px;
+	color: #ababab;
+  text-decoration: none;
+	margin: 0;
+}
+#forgot:hover {
+	color: #444;
+  text-decoration: underline;
+}
+#loginForm .submit {
+	overflow: hidden;
+	margin: 30px -24px 0;
+	padding: 22px 24px;
+	background: #F0F5F7;
+	border-top: 1px solid #DDE0E8;
+	border-radius: 0 0 4px 4px;
+	box-shadow: inset 0 1px #FFF, inset -1px -1px #F7FAFB, inset 1px 0 #F7FAFB;
+  font-size: 11px;
+}
+#remember {
+	display: block;
+	margin: 5px 0 0;
+	cursor: pointer;
+}
+#remember input {
+	margin: 0 4px 0 0;
+	vertical-align: middle;
+}
+#loginForm .submit button {
+	float: right;
+	cursor: pointer;
+	outline: none;
+	color: $black !important;
+  background-color: transparent !important;
+  font-weight: 600 !important;
+  padding: 10px 25px;
+  text-decoration: none !important;
+  transition: all .5s !important;
+	position: relative !important;
+	border: none;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $accent-color !important;
+    -webkit-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    transform: skew(-20deg);
+    // z-index: -1;
+    transition: all .5s;
+  }
+  &:hover {
+    color: $accent-color !important;
+    transition: all .5s;
+    &:hover:before {
+    transform: skew(0deg);
+    background-color: $black !important;
+  }
+  }
+}
+#loginForm .submit button::-moz-focus-inner {
+	border:0
+}
 
 
 @import "media";
