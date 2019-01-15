@@ -651,9 +651,13 @@ body {
   z-index: 99999;
   display: none; }
 
+#popup_name_wrap {
+  position: relative; }
+
 .close span {
-  margin: 206px 0 0 268px;
-  position: fixed; }
+  top: 5px;
+  right: 10px;
+  position: absolute; }
 
 /*--Фиксированное позиционирование для тупого IE6--*/
 #fade {
@@ -749,7 +753,7 @@ body {
   transition: all .5s !important;
   position: relative !important;
   border: none; }
-  #loginForm .submit button:before {
+  #loginForm .submit button:after {
     content: '';
     position: absolute;
     left: 0;
@@ -763,12 +767,12 @@ body {
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s; }
-  #loginForm .submit button:hover {
+  #loginForm .submit button:after {
     color: #ffea29 !important;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s; }
-    #loginForm .submit button:hover:hover:before {
+    #loginForm .submit button:after:hover:before {
       -webkit-transform: skew(0deg);
           -ms-transform: skew(0deg);
               transform: skew(0deg);

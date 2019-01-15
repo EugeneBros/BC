@@ -242,6 +242,8 @@ function author_log() { ?>
     <? if ( !is_user_logged_in() ): ?>
     <a href="#" rel="popup_name" class="poplight">Вход</a>
     <div id="popup_name" class="popup_block">
+        <div id="popup_name_wrap">
+        <a href="#" class="close"><span class="close">Х</span></a>
         <form action="<?php echo wp_login_url(get_permalink()); ?>"   id="loginForm" action="" method="post">
             <div class="field">
                 <label>Имя пользователя:</label>
@@ -263,10 +265,13 @@ function author_log() { ?>
                 </label>
             </div>
         </form>
+        </div>
     </div>
     <? else: ?>
         <a href="#" rel="popup_name" class="poplight">Ваш профиль</a>
         <div id="popup_name" class="popup_block">
+        <div id="popup_name_wrap">
+            <a href="#" class="close"><span class="close">Х</span></a>
             <div id="loginForm" action="" method="post">
                 <div class="cont-side">
                     <center><?php global $current_user;  get_currentuserinfo(); echo get_avatar( $current_user->user_email, '96' ); ?>
@@ -287,5 +292,6 @@ function author_log() { ?>
                             <div>
                         </div>
                     </div>
+                </div>
     <? endif?>
 <?php } ?>

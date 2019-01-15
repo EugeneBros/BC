@@ -57,10 +57,3 @@
     </div>
 </header>
 <ul><?php author_log(); ?></ul>
-
-<script>
-var cl = $('#popup_name a.close');
-cl.on('click', function(event) {
-    console.log('test');
-});
-</script>
