@@ -6,13 +6,13 @@
 @import "woocommerce";
 
 body {
-  color: $dark-color;
-  line-height: 1.65;
-  position: relative;
-  overflow-x: hidden;
-  min-width: 320px;
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+	color: $dark-color;
+	line-height: 1.65;
+	position: relative;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-size: 15px;
+	font-family: "Open Sans", sans-serif;
 }
 
 #fade {
@@ -35,12 +35,10 @@ body {
 	position: relative;
 }
 .close span{
-	// margin: 206px 0 0 268px;
 	top: 5px;
 	right: 10px;
 	position: absolute;
 }
-/*--Фиксированное позиционирование для тупого IE6--*/
 #fade {
 	position: absolute;
 }
@@ -66,10 +64,10 @@ body {
 	margin: 0 0 11px;
 }
 #loginForm .field .input {
-  border-radius: 4px;
+	border-radius: 4px;
 }
 #loginForm .field input {
-  font: 12px Arial, Tahoma, sans-serif;
+	font: 12px Arial, Tahoma, sans-serif;
 	color: #444;
 	width: 100%;
 	padding: 9px 13px;
@@ -86,12 +84,12 @@ body {
 	float: right;
   font-size: 11px;
 	color: #ababab;
-  text-decoration: none;
+	text-decoration: none;
 	margin: 0;
 }
 #forgot:hover {
 	color: #444;
-  text-decoration: underline;
+	-decoration: underline;
 }
 #loginForm .submit {
 	overflow: hidden;
@@ -117,38 +115,39 @@ body {
 	cursor: pointer;
 	outline: none;
 	color: $black !important;
-  background-color: transparent !important;
-  font-weight: 600 !important;
-  padding: 10px 25px;
-  text-decoration: none !important;
-  transition: all .5s !important;
+	background-color: transparent !important;
+	font-weight: 600 !important;
+	padding: 10px 25px;
+	text-decoration: none !important;
+	transition: all .5s !important;
 	position: relative !important;
 	border: none;
-  &:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: $accent-color !important;
-    -webkit-transform: skew(-20deg);
-    -ms-transform: skew(-20deg);
-    transform: skew(-20deg);
-    transition: all .5s;
-  }
-  &:before {
-    color: $accent-color !important;
-    transition: all .5s;
-    &:hover:before {
-    transform: skew(0deg);
-    background-color: $black !important;
-  }
-  }
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background-color: $accent-color !important;
+		-webkit-transform: skew(-20deg);
+		-ms-transform: skew(-20deg);
+		transform: skew(-20deg);
+		transition: all .5s;
+	}
+	&:before {
+		color: $accent-color !important;
+		transition: all .5s;
+		&:hover:before {
+		transform: skew(0deg);
+		background-color: $black !important;
+		}
+	}
 }
 #loginForm .submit button::-moz-focus-inner {
 	border:0
 }
+
 
 
 @import "media";
