@@ -622,6 +622,71 @@ div.wpcf7 .ajax-loader {
     background-color: #ffffff !important;
     z-index: 0 !important; }
 
+/***Checkout page***/
+.woocommerce table.shop_table {
+  border: none; }
+  .woocommerce table.shop_table th,
+  .woocommerce table.shop_table tfoot th,
+  .woocommerce table.shop_table td {
+    font-size: 20px;
+    color: #1f1f1f;
+    font-weight: 400 !important; }
+    .woocommerce table.shop_table th strong,
+    .woocommerce table.shop_table th .amount,
+    .woocommerce table.shop_table tfoot th strong,
+    .woocommerce table.shop_table tfoot th .amount,
+    .woocommerce table.shop_table td strong,
+    .woocommerce table.shop_table td .amount {
+      font-weight: 400 !important; }
+
+.woocommerce-checkout #payment {
+  background-color: transparent;
+  border: 2px solid #e2e2e2; }
+
+.woocommerce-checkout #customer_details label {
+  font-size: 16px;
+  color: #181818;
+  opacity: 0.5; }
+
+.woocommerce-checkout #customer_details .woocommerce-input-wrapper input {
+  height: 40px;
+  -webkit-box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+  border: none;
+  outline: none;
+  padding: 0 15px; }
+
+.woocommerce-checkout button.alt {
+  color: #000000 !important;
+  background-color: transparent !important;
+  font-weight: 600 !important;
+  padding: 20px 25px !important;
+  text-decoration: none !important;
+  -webkit-transition: all .5s !important;
+  -o-transition: all .5s !important;
+  transition: all .5s !important;
+  position: relative !important; }
+  .woocommerce-checkout button.alt:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: transparent !important;
+    border: 2px solid #ffea29 !important;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s; }
+  .woocommerce-checkout button.alt:hover {
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s; }
+    .woocommerce-checkout button.alt:hover:hover:before {
+      -webkit-transform: skew(0deg);
+          -ms-transform: skew(0deg);
+              transform: skew(0deg); }
+
 body {
   color: #1f1f1f;
   line-height: 1.65;
