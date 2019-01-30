@@ -61,3 +61,16 @@ $('#popup_name #popup_name_wrap a.close').on('click', function() {
     });
     return false;
 });
+
+/***Main-page slider***/
+
+$(function() {
+    var mainBanner_slider = new Swiper(".swiper-container", {
+        parallax: !0,
+        loop: !0,
+        speed: 800,
+        autoplay: {
+            delay: 5e3
+        }
+    });
+});
