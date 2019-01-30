@@ -283,7 +283,6 @@ function author_log() { ?>
 							<?php endif; ?>
 						<?php endif; ?>
 						<a href="<?php bloginfo('url'); ?>/author/<?php echo $current_user->user_login; ?>">Профиль</a> | <a href="<?php bloginfo('url') ?>/wp-admin/profile.php" title="изменить">Изменить</a>
-					
 					<div class="submit">
 						<a href="<?php echo wp_logout_url( $redirect ); ?>" title="Выйти">
 							<button name="submit" type="submit">Выйти</button>
