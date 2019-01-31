@@ -65,7 +65,7 @@ $('#popup_name #popup_name_wrap a.close').on('click', function() {
 /***Main-page slider***/
 
 $(function() {
-    var mainBanner_slider = new Swiper(".swiper-container", {
+    var mainBanner_slider = new Swiper(".swiper-cдontainer", {
         parallax: !0,
         loop: !0,
         speed: 800,
