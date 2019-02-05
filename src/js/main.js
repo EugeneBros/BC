@@ -1,3 +1,4 @@
+jQuery(document).ready(function( $ ){
 //Header navigation on mobile devices
 var headerNav = $(".header_nav_list"),
     headerHamburger = $(".hamburger");
@@ -73,4 +74,6 @@ $(function() {
             delay: 5e3
         }
     });
+});
+
 });

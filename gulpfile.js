@@ -30,9 +30,9 @@ autoprefixer = require('gulp-autoprefixer');
 		gulp.task('scripts', ['common-js'], function() {
 			return gulp.src([
 			//More plugins here
-			'src/libs/jquery/jquery.js',
+			// 'src/libs/jquery/jquery.js',
 			'src/libs/swiper/swiper.js',
-			// 'src/libs/owl-carousel/owl.carousel.min.js',
+			'src/libs/owl-carousel/owl.carousel.min.js',
 
 			])
 			.pipe(concat('libs.min.js'))
