@@ -25,7 +25,8 @@ h1 {
 }
 
 .access-btn,
-.add_to_cart_button {
+.add_to_cart_button,
+.access-btn-a a {
   color: $black !important;
   background-color: transparent !important;
   font-weight: 600 !important;
@@ -33,6 +34,7 @@ h1 {
   text-decoration: none !important;
   transition: all .5s !important;
   position: relative !important;
+  border: none !important;
   &:before {
     content: '';
     position: absolute;

@@ -3,3 +3,24 @@
 		width: 100%;
 	}
 }
+.training-difficult,
+.training-time {
+	position: relative;
+	padding-left: 35px;
+	font-weight: 600;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 2px;
+		left: 0;
+		width: 19px;
+		height: 19px;
+		background-repeat: no-repeat;
+	}
+}
+.training-difficult:before {
+	background-image: url('../img/icons/trophy.png');
+}
+.training-time:before {
+	background-image: url('../img/icons/clock.png');
+}

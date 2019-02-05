@@ -17,7 +17,8 @@ h1 {
   margin: 40px 0 20px; }
 
 .access-btn,
-.add_to_cart_button {
+.add_to_cart_button,
+.access-btn-a a {
   color: #000000 !important;
   background-color: transparent !important;
   font-weight: 600 !important;
@@ -26,9 +27,11 @@ h1 {
   -webkit-transition: all .5s !important;
   -o-transition: all .5s !important;
   transition: all .5s !important;
-  position: relative !important; }
+  position: relative !important;
+  border: none !important; }
   .access-btn:before,
-  .add_to_cart_button:before {
+  .add_to_cart_button:before,
+  .access-btn-a a:before {
     content: '';
     position: absolute;
     left: 0;
@@ -44,13 +47,15 @@ h1 {
     -o-transition: all .5s;
     transition: all .5s; }
   .access-btn:hover,
-  .add_to_cart_button:hover {
+  .add_to_cart_button:hover,
+  .access-btn-a a:hover {
     color: #ffea29 !important;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s; }
     .access-btn:hover:hover:before,
-    .add_to_cart_button:hover:hover:before {
+    .add_to_cart_button:hover:hover:before,
+    .access-btn-a a:hover:hover:before {
       -webkit-transform: skew(0deg);
           -ms-transform: skew(0deg);
               transform: skew(0deg);
@@ -1161,6 +1166,27 @@ button.swiper-pagination-bullet {
 
 .training-img img {
   width: 100%; }
+
+.training-difficult,
+.training-time {
+  position: relative;
+  padding-left: 35px;
+  font-weight: 600; }
+  .training-difficult:before,
+  .training-time:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 19px;
+    height: 19px;
+    background-repeat: no-repeat; }
+
+.training-difficult:before {
+  background-image: url("../img/icons/trophy.png"); }
+
+.training-time:before {
+  background-image: url("../img/icons/clock.png"); }
 
 .woocommerce-ordering,
 .woocommerce-result-count {
