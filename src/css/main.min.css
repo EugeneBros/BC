@@ -1627,9 +1627,16 @@ body {
 
 @media screen and (max-width: 1200px) {
   .instagram-phone {
-    margin-top: 70px; } }
+    margin-top: 70px; }
+  .footer_subscription .footer_subscription_form .wpcf7-form .your-email input {
+    width: 55%; } }
 
 @media screen and (max-width: 992px) {
+  .footer_subscription .footer_subscription_form .wpcf7-form .wpcf7-submit {
+    width: 100%; }
+  .footer_subscription .footer_subscription_form .wpcf7-form .your-email input {
+    width: 100%;
+    margin-bottom: 30px; }
   #header .header_nav .header_nav_list {
     display: none;
     position: absolute;
@@ -1656,6 +1663,17 @@ body {
     display: flex; } }
 
 @media screen and (max-width: 768px) {
+  .woocommerce ul.products[class*="columns-"] li.product {
+    width: 100%; }
+  .footer .footer_subscription .footer_subscription_form .wpcf7-form .wrap-bg {
+    padding: 12px 0 12px 1px; }
+  .footer .footer_subscription .footer_subscription_form .wpcf7-form .your-email input {
+    margin-top: 30px;
+    padding: 0 15px; }
   .footer .footer_nav_wrapper .footer_nav_title {
     margin-top: 30px;
     margin-bottom: 10px; } }
+
+@media screen and (max-width: 576px) {
+  .header_wrap {
+    padding: 0 5px; } }
