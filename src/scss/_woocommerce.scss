@@ -45,7 +45,7 @@
 	position: relative;
 	outline: none;
 	border: none;
-	width: 200px;
+	width: 160px;
 	font-size: 16px;
 }
 .woocommerce .cart-empty {
@@ -156,6 +156,14 @@
 		width: 15px;
 	}
 }
+.woocommerce .cart-collaterals {
+  padding-bottom: 40px;
+}
+.woocommerce table.shop_table th, 
+.woocommerce table.shop_table tfoot th, 
+.woocommerce table.shop_table td {
+	font-size: 15px !important;
+}
 .woocommerce .woocommerce-cart-form {
 	float: right;
 	width: 58%;
@@ -174,7 +182,7 @@
 .coupon .wrap-bg {
 	position: relative;
 	background-color: transparent;
-	padding: 19px 25px;
+	padding: 16px 25px;
 	cursor: pointer;
 	&::before {
 	 content: '';
@@ -199,6 +207,10 @@
 	 background-color: $white !important;
 	 z-index: 0 !important;
 	}
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+	font-size: 14px;
 }
 
 /***Checkout page***/
