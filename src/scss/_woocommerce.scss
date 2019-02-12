@@ -282,3 +282,11 @@
 		}
 	}
 }
+.product .wccpf-fields-container:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.related.products h2 {
+	text-align: center;
+}
