@@ -248,6 +248,24 @@ function ACF_product_content(){
   }
 }
 
+/***Woocommerse Refresh Cart***/
+
+add_action( 'wp_footer', 'cart_refresh_update_qty', 100 );
+
+function cart_refresh_update_qty() {
+	if ( is_cart() ) {
+		?>
+		<script type="text/javascript">
+			jQuery('div.woocommerce').on('change', 'input.qty', function(){
+				setTimeout(function() {
+					jQuery('[name="update_cart"]').trigger('click');
+				}, 100 );
+			});
+		</script>
+		<?php
+	}
+}
+
 function author_log() { ?>
 	<? if ( !is_user_logged_in() ): ?>
 		<a href="#" rel="popup_name" class="poplight">Вход</a>
