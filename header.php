@@ -36,7 +36,7 @@
 							</a>
 						</li>
 						<li class="icon">
-							<a class="lrm-login" href="#">
+							<a href="/login/">
 								<img src="<?php bloginfo('template_url') ?>/src/img/icons/user.svg" alt="Log in">
 							<!--	<?php function author_lt() { ?> <? if ( !is_user_logged_in() ): ?> Авторизация <? else: ?> Ваш профиль <? endif?> <?php }   ?> <?php author_lt(); ?>-->
 							</a>

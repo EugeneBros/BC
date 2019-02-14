@@ -20,6 +20,11 @@
 }
 
 @media screen and (max-width: 992px) {
+  .login-wrapper {
+    .tml-login {
+      width: 80%;
+    }
+  }
   .woocommerce .woocommerce-cart-form,
   .woocommerce .cart-collaterals {
     float: none;
@@ -75,6 +80,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .login-wrapper {
+    .tml-login {
+      width: 100%;
+    }
+  }
   .woocommerce table.cart .product-thumbnail {
     display: block;
   }
@@ -158,6 +168,16 @@
 @media screen and (max-width: 510px) {
   .woocommerce #coupon_code {
     width: 84%;
+  }
+  .login-wrapper {
+    .tml-login {
+      .tml-links {
+        li {
+          display: block;
+          margin: 25px 0 45px 0;
+        }
+      }
+    }
   }
 }
 
