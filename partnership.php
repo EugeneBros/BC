@@ -1,17 +1,17 @@
 <?php
 /*
-Template Name: Log in/Register
+Template Name: Partnership
 */
 ?>
 
 <?php get_header(); ?>
 
-<section class="login-wrapper">
+<section class="partnership-wrapper">
 	<div class="container">
-		<h1>Авторизация</h1>
+		<h1 class="partnership-title">Партнерство</h1>
 		<?php while (have_posts()) : the_post(); ?>
 			<?php the_content(); ?>
-		<?php endwhile; ?>
+		<?php endwhile; ?>	
 	</div>
 </section>
 

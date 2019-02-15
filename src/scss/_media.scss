@@ -80,6 +80,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .blog-post-wrap {
+    .blog-post-img {
+      height: 50vw;
+    }
+  }
   .login-wrapper {
     .tml-login {
       width: 100%;
@@ -163,6 +168,18 @@
   .header_wrap {
     padding: 0 5px;
   }
+  .blog-post-wrap {
+    .recent-posts-list {
+      flex-direction: column;
+      .recent-posts-item {
+        width: 100%;
+        margin-bottom: 30px;
+        .recent-posts-img-wrap {
+          height: 50vw;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 510px) {
@@ -189,6 +206,12 @@
   display: none;
 }
 @media (max-width: 767px) {
+  .partnership-top-btn-wrap {
+    text-align: center;
+  }
+  .part-top-main-pic {
+    text-align: center !important;
+  }
   .main_banner .main_banner_slider {
     width: 100vw;
     height: 175px;

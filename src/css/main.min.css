@@ -1244,6 +1244,54 @@ button.swiper-pagination-bullet {
 .row-block-text .vc_color-success.vc_message_box .vc_message_box-icon {
   color: #69CA6D; }
 
+.blog-post-wrap {
+  padding: 60px 0; }
+  .blog-post-wrap .heateor_sss_sharing_container {
+    margin-top: 20px; }
+  .blog-post-wrap .recent-posts-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0 20px; }
+  .blog-post-wrap .recent-posts-list {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .blog-post-wrap .recent-posts-list .recent-posts-item {
+      width: 31%;
+      position: relative; }
+      .blog-post-wrap .recent-posts-list .recent-posts-item .recent-posts-img-wrap {
+        width: 100%;
+        height: 15vw;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+                background-size: cover; }
+      .blog-post-wrap .recent-posts-list .recent-posts-item a {
+        display: block;
+        text-align: center;
+        color: #000000;
+        text-decoration: none;
+        font-weight: 600; }
+  .blog-post-wrap .blog-post-title {
+    text-align: center;
+    margin: 30px 0 20px; }
+  .blog-post-wrap .blog-post-date {
+    font-weight: 600;
+    font-size: 20px; }
+  .blog-post-wrap .blog-post-img {
+    height: 25vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+            background-size: cover; }
+
 .main-page-blog {
   margin-top: 40px; }
   .main-page-blog .vc_grid-container-wrapper .vc_grid-item-mini .vc_gitem-link:hover {
@@ -1651,75 +1699,226 @@ button.swiper-pagination-bullet {
       color: #202020;
       text-decoration: none; }
 
-.login-wrapper .tml {
-  width: 50%;
-  margin: 0 auto; }
-  .login-wrapper .tml .tml-field-wrap .tml-label {
-    color: #202020;
-    font-size: 18px; }
-  .login-wrapper .tml .tml-field-wrap #rememberme {
+.login-wrapper {
+  padding: 30px 0; }
+  .login-wrapper h1 {
+    text-align: center; }
+  .login-wrapper .tml {
+    width: 50%;
+    margin: 0 auto; }
+    .login-wrapper .tml .tml-field-wrap .tml-label {
+      color: #202020;
+      font-size: 18px; }
+    .login-wrapper .tml .tml-field-wrap #rememberme {
+      height: auto; }
+    .login-wrapper .tml .tml-field-wrap input {
+      height: 40px;
+      -webkit-box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+              box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+      border: none;
+      outline: none;
+      padding: 0 15px; }
+    .login-wrapper .tml .tml-field-wrap input.tml-button {
+      height: auto;
+      color: #000000 !important;
+      background-color: #ffea29 !important;
+      font-weight: 600 !important;
+      padding: 12px 18px !important;
+      text-decoration: none !important;
+      -webkit-transition: all .5s !important;
+      -o-transition: all .5s !important;
+      transition: all .5s !important;
+      position: relative !important; }
+      .login-wrapper .tml .tml-field-wrap input.tml-button:hover {
+        cursor: pointer;
+        background-color: #000000 !important;
+        color: #ffea29 !important; }
+    .login-wrapper .tml .tml-links {
+      list-style-type: none;
+      margin: 25px 0; }
+      .login-wrapper .tml .tml-links li {
+        display: inline-block;
+        margin: 0 25px 0 0; }
+        .login-wrapper .tml .tml-links li a {
+          color: #000000 !important;
+          background-color: transparent !important;
+          font-weight: 600 !important;
+          padding: 12px 18px;
+          text-decoration: none !important;
+          -webkit-transition: all .5s !important;
+          -o-transition: all .5s !important;
+          transition: all .5s !important;
+          position: relative !important;
+          border: none !important; }
+          .login-wrapper .tml .tml-links li a:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: #ffea29 !important;
+            z-index: -1;
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s; }
+          .login-wrapper .tml .tml-links li a:hover {
+            color: #ffea29 !important;
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s; }
+            .login-wrapper .tml .tml-links li a:hover:hover:before {
+              -webkit-transform: skew(0deg);
+                  -ms-transform: skew(0deg);
+                      transform: skew(0deg);
+              background-color: #000000 !important; }
+
+.partnership-wrapper .part-three-col .vc_single_image-img {
+  width: 250px;
+  height: 250px; }
+
+.partnership-wrapper .part-right-block .wpb_text_column .wpb_wrapper {
+  min-height: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .partnership-wrapper .part-right-block .wpb_text_column .wpb_wrapper .partnership-top-text {
+    margin-bottom: 50px; }
+
+.partnership-wrapper .partnership-title {
+  text-align: center;
+  margin: 30px 0 20px; }
+
+.partnership-wrapper .access-btn {
+  z-index: 1; }
+
+.partnership-wrapper .part-three-step .wpb_wrapper .wpb_single_image {
+  text-align: center !important; }
+
+.partnership-wrapper .part-main-text {
+  line-height: 2.5; }
+  .partnership-wrapper .part-main-text h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.5; }
+
+.partnership-wrapper .part-three-step > .vc_column-inner > .wpb_wrapper {
+  background-color: #C4C6C5;
+  margin-bottom: 0 15px;
+  padding: 40px 0; }
+
+.partnership-wrapper .part-three-step > .vc_column-inner > .wpb_wrapper .wpb_text_column {
+  padding: 0 50px; }
+
+.partnership-wrapper .part-three-step > .vc_column-inner > .wpb_wrapper .wpb_text_column h4 {
+  color: #000000;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 12px 18px;
+  text-decoration: none;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  position: relative;
+  border: none;
+  z-index: 1; }
+  .partnership-wrapper .part-three-step > .vc_column-inner > .wpb_wrapper .wpb_text_column h4:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #ffea29;
+    -webkit-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    transform: skew(-20deg);
+    z-index: -1; }
+
+#mainForm.pure-form {
+  margin: 0 auto;
+  padding: 60px 0; }
+  #mainForm.pure-form .pure-table #chkAgreeTerms {
     height: auto; }
-  .login-wrapper .tml .tml-field-wrap input {
+  #mainForm.pure-form .pure-table input {
     height: 40px;
     -webkit-box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
             box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
     border: none;
     outline: none;
     padding: 0 15px; }
-  .login-wrapper .tml .tml-field-wrap input.tml-button {
+  #mainForm.pure-form .pure-button {
+    margin: 12px 0;
+    color: #000000;
+    background-color: #ffea29;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 12px 18px;
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    position: relative;
+    border: none !important;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    #mainForm.pure-form .pure-button:hover {
+      background-color: #ffea29;
+      color: #000000; }
+  #mainForm.pure-form #agreeTermsLabel a {
+    color: #202020; }
+
+#wpam_form_error_panel {
+  display: none; }
+
+.wpam-login-form {
+  margin: 0 auto;
+  padding: 60px 0; }
+
+#loginform {
+  padding: 0 0 16px; }
+  #loginform input {
+    height: 40px;
+    -webkit-box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+    border: none;
+    outline: none;
+    padding: 0 15px; }
+  #loginform #wp-submit {
     height: auto;
-    color: #000000 !important;
-    background-color: #ffea29 !important;
-    font-weight: 600 !important;
-    padding: 12px 18px !important;
-    text-decoration: none !important;
-    -webkit-transition: all .5s !important;
-    -o-transition: all .5s !important;
-    transition: all .5s !important;
-    position: relative !important; }
-    .login-wrapper .tml .tml-field-wrap input.tml-button:hover {
-      cursor: pointer;
-      background-color: #000000 !important;
-      color: #ffea29 !important; }
-  .login-wrapper .tml .tml-links {
-    list-style-type: none;
-    margin: 25px 0; }
-    .login-wrapper .tml .tml-links li {
-      display: inline-block;
-      margin: 0 25px 0 0; }
-      .login-wrapper .tml .tml-links li a {
-        color: #000000 !important;
-        background-color: transparent !important;
-        font-weight: 600 !important;
-        padding: 12px 18px;
-        text-decoration: none !important;
-        -webkit-transition: all .5s !important;
-        -o-transition: all .5s !important;
-        transition: all .5s !important;
-        position: relative !important;
-        border: none !important; }
-        .login-wrapper .tml .tml-links li a:before {
-          content: '';
-          position: absolute;
-          left: 0;
-          right: 0;
-          top: 0;
-          bottom: 0;
-          background-color: #ffea29 !important;
-          z-index: -1;
-          -webkit-transition: all .5s;
-          -o-transition: all .5s;
-          transition: all .5s; }
-        .login-wrapper .tml .tml-links li a:hover {
-          color: #ffea29 !important;
-          -webkit-transition: all .5s;
-          -o-transition: all .5s;
-          transition: all .5s; }
-          .login-wrapper .tml .tml-links li a:hover:hover:before {
-            -webkit-transform: skew(0deg);
-                -ms-transform: skew(0deg);
-                    transform: skew(0deg);
-            background-color: #000000 !important; }
+    margin: 12px 0;
+    color: #000000;
+    background-color: #ffea29;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 12px 18px;
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    position: relative;
+    border: none !important;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    #loginform #wp-submit:hover {
+      background-color: #ffea29;
+      color: #000000; }
+  #loginform #rememberme {
+    height: auto; }
 
 body {
   color: #1f1f1f;
@@ -1878,6 +2077,12 @@ body {
 #loginForm .submit button::-moz-focus-inner {
   border: 0; }
 
+.account-wrapper {
+  padding: 30px 0; }
+  .account-wrapper h1 {
+    text-align: center;
+    margin-bottom: 30px; }
+
 @media screen and (max-width: 1200px) {
   .woocommerce a.button.alt,
   .woocommerce .cart .actions .button {
@@ -1925,6 +2130,8 @@ body {
     display: flex; } }
 
 @media screen and (max-width: 768px) {
+  .blog-post-wrap .blog-post-img {
+    height: 50vw; }
   .login-wrapper .tml-login {
     width: 100%; }
   .woocommerce table.cart .product-thumbnail {
@@ -1973,7 +2180,18 @@ body {
 
 @media screen and (max-width: 576px) {
   .header_wrap {
-    padding: 0 5px; } }
+    padding: 0 5px; }
+  .blog-post-wrap .recent-posts-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .blog-post-wrap .recent-posts-list .recent-posts-item {
+      width: 100%;
+      margin-bottom: 30px; }
+      .blog-post-wrap .recent-posts-list .recent-posts-item .recent-posts-img-wrap {
+        height: 50vw; } }
 
 @media screen and (max-width: 510px) {
   .woocommerce #coupon_code {
@@ -1990,6 +2208,10 @@ body {
   display: none; }
 
 @media (max-width: 767px) {
+  .partnership-top-btn-wrap {
+    text-align: center; }
+  .part-top-main-pic {
+    text-align: center !important; }
   .main_banner .main_banner_slider {
     width: 100vw;
     height: 175px; }

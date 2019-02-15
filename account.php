@@ -1,14 +1,14 @@
 <?php
 /*
-Template Name: Log in/Register
+Template Name: Account
 */
 ?>
 
 <?php get_header(); ?>
 
-<section class="login-wrapper">
+<section class="account-wrapper">
 	<div class="container">
-		<h1>Авторизация</h1>
+		<h1>Мой аккаунт</h1>
 		<?php while (have_posts()) : the_post(); ?>
 			<?php the_content(); ?>
 		<?php endwhile; ?>

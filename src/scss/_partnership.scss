@@ -1,0 +1,158 @@
+.partnership-wrapper {
+	.part-three-col {
+		.vc_single_image-img {
+			width: 250px;
+			height: 250px;
+		}
+	}
+	.part-right-block {
+		.wpb_text_column {
+			.wpb_wrapper {
+				min-height: 300px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				.partnership-top-text {
+					margin-bottom: 50px;
+				}
+			}
+		}
+	}
+	.partnership-title {
+		text-align: center;
+		margin: 30px 0 20px;
+	}
+	.access-btn {
+		z-index: 1;
+	}
+	.part-three-step {
+		.wpb_wrapper {
+			// margin: 0 15px;
+			// padding: 40px 50px;
+			// background-color: #C4C6C5;
+			.wpb_single_image {
+				text-align: center !important;
+			}
+		}
+	}
+	.part-main-text {
+		line-height: 2.5;
+		h4 {
+			font-size: 25px;
+			text-transform: uppercase;
+			font-weight: 700;
+			line-height: 1.5;
+		}
+	}
+}
+.partnership-wrapper .part-three-step > .vc_column-inner > .wpb_wrapper {
+	background-color: #C4C6C5;
+	margin-bottom: 0 15px;
+	padding: 40px 0;
+}
+.partnership-wrapper .part-three-step > .vc_column-inner > .wpb_wrapper .wpb_text_column {
+	padding: 0 50px;
+}
+.partnership-wrapper .part-three-step > .vc_column-inner > .wpb_wrapper .wpb_text_column h4 {
+	color: $black;
+	background-color: transparent;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 12px 18px;
+	text-decoration: none;
+	transition: all .5s;
+	position: relative;
+	border: none;
+	z-index: 1;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background-color: $accent-color;
+		-webkit-transform: skew(-20deg);
+		-ms-transform: skew(-20deg);
+		transform: skew(-20deg);
+		z-index: -1;
+	}
+}
+#mainForm.pure-form {
+	margin: 0 auto;
+	padding: 60px 0;
+	.pure-table {
+		#chkAgreeTerms {
+			height: auto;
+		}
+		input {
+			height: 40px;
+			box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+			border: none;
+			outline: none;
+			padding: 0 15px;
+		}
+	}
+	.pure-button {
+		margin: 12px 0;
+		color: $black;
+		background-color: $accent-color;
+		font-weight: 600;
+		font-size: 20px;
+		padding: 12px 18px;
+		text-decoration: none;
+		transition: all .5s;
+		position: relative;
+		border: none !important;
+		outline: none;
+		box-shadow: none;
+		&:hover {
+			background-color: $accent-color;
+			color: $black;
+		}
+	}
+	#agreeTermsLabel {
+		a {
+			color: #202020;
+		}
+	}
+}
+#wpam_form_error_panel {
+	display: none;
+}
+.wpam-login-form {
+	margin: 0 auto;
+	padding: 60px 0;
+}
+#loginform {
+	padding: 0 0 16px;
+	input {
+		height: 40px;
+		box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+		border: none;
+		outline: none;
+		padding: 0 15px;
+	}
+	#wp-submit {
+		height: auto;
+		margin: 12px 0;
+		color: $black;
+		background-color: $accent-color;
+		font-weight: 600;
+		font-size: 20px;
+		padding: 12px 18px;
+		text-decoration: none;
+		transition: all .5s;
+		position: relative;
+		border: none !important;
+		outline: none;
+		box-shadow: none;
+		&:hover {
+			background-color: $accent-color;
+			color: $black;
+		}
+	}
+	#rememberme {
+		height: auto;
+	}
+}
