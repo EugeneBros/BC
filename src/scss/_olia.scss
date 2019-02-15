@@ -1,0 +1,197 @@
+.woocommerce div.product p.price {
+    margin: 1em 0;
+}
+.woocommerce div.product p.price .woocommerce-Price-currencySymbol {
+    padding-left: 10px;
+}
+.woocommerce div.product div.summary .screen-reader-text {
+    position: relative!important;
+    overflow: visible;
+}
+.woocommerce div.product form.cart div.quantity {
+    float: left;
+}
+.woocommerce div.product form.cart .button {
+    color: #fff !important;
+    padding: 10px 15px !important;
+    text-transform: uppercase;
+}
+.woocommerce div.product div.summary .quantity .qty {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.single-product-item {
+    background-color: #000;
+    background-size: cover;
+    background-position-x: 100%;
+    padding: 1em 0;
+    position: relative;
+}
+.single-product-item.grad:before {
+    content: '';
+    background-image: linear-gradient(to right, #000, #000, #0008, transparent);
+    display: block;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.single-product-item.grad.grad1:before {
+    right: 0;
+    left: inherit;
+    transform: rotate(180deg);
+}
+.single-product-item:nth-child(even) {
+    background-color: transparent;
+}
+.single-product-item:nth-child(even) .main-advantages {
+    color: #000;
+}
+.single-product-item:nth-child(even) .main-advantages h3 {
+    color: #e6a2d2;
+    margin-bottom: 0;
+}
+.single-product-item .main-advantages .sub-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin: .5em 0 1em;
+}
+.single-product-item .main-advantages ul li span {
+    text-transform: uppercase;   
+}
+.single-product-item .main-advantages ul li::before {
+    background: url(../img/ul-li-y.svg);    
+}
+.single-product-item .img_2 {
+    position: relative;
+    left: 100px;
+    bottom: -10px;    
+}
+.single-product-item .main-advantages {
+    margin-top: 2em;
+}
+.main-advantages h3 {
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.single-product-btn {
+    margin: 3em 1em;
+}
+.single-product-btn a {
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    z-index: 1;
+}
+.single-product-btn a:hover {
+    color: #e6a2d2 !important;  
+}
+.single-product-item:nth-child(odd) .single-product-btn a:hover {
+    border: 1px solid #e6a2d2 !important;  
+}  
+.single-product-btn .vc_btn3-color-pink:before {
+    background-color: #e6a2d2 !important;
+}
+.single-product-item.video-item {
+    text-align: center;
+}
+.single-product-item.video-item .main-advantages h3 {
+    color: #000;
+}
+.single-product-item.video-item img {
+    margin: 2em 0;
+}
+.single-product-item.video-item .single-product-btn {
+    margin-bottom: 5em;
+}
+
+
+/**/ 
+
+.one-click .one-click_subscription {
+    padding: 20px 0; 
+}
+.one-click .one-click_subscription .one-click_subscription_form .wpcf7-form .wrap-bg {
+    position: relative;
+    background-color: transparent;
+   padding: 12px 25px;
+    cursor: pointer; 
+}
+.one-click .one-click_subscription .one-click_subscription_form .wpcf7-form .wrap-bg::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #e6a2d2 !important;
+    -webkit-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    transform: skew(-20deg);
+    z-index: 1; 
+}
+.one-click .one-click_subscription .one-click_subscription_form .wpcf7-form .wrap-bg-white {
+    margin-right: 5px;
+    cursor: text; 
+}
+.one-click .one-click_subscription .one-click_subscription_form .wpcf7-form .wrap-bg-white::before {
+    background-color: #e5e5e5 !important;
+    z-index: 0 !important; 
+}
+.one-click .one-click_subscription .one-click_subscription_form .wpcf7-form .wrap-bg-white input {
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.one-click .one-click_subscription .one-click_subscription_form .wpcf7-form .wpcf7-tel {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    position: relative; 
+}
+.one-click .one-click_subscription .one-click_subscription_form .wpcf7-form .wpcf7-submit {
+    color: #fff !important;
+    background-color: transparent !important;    
+    // padding: 12px 25px;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    position: relative !important;
+    border: none; 
+    z-index: 2;
+}
+.one-click .one-click_subscription .one-click_subscription_text {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 80px;
+    line-height: 1.5; 
+}
+.one-click .one-click_subscription .one-click_subscription_text::before {
+    content: "\f003";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    color: #000000;
+    font-family: FontAwesome;
+    font-size: 52px;
+    line-height: 42px; 
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .woocommerce .product .summary {
+        padding: 0 15px;
+    }
+}

@@ -8,13 +8,16 @@ Template Name: Blog Post Single
 
 <section class="blog-post-wrap">
 	<div class="container">
-		<div class="blog-post-img" style="background-image: url('<?php the_post_thumbnail_url( 'full', 'src' ); ?>');"></div>
+		<?php if( is_product() ) {} else { ?>
+			<div class="blog-post-img" style="background-image: url('<?php the_post_thumbnail_url( 'full', 'src' ); ?>');"></div>
 		<h1 class="blog-post-title"><?php the_title(); ?></h1>
 		<p class="blog-post-date"><?php the_date('Y-m-d'); ?></p>
+		<?php } ?>
 		<?php while (have_posts()) : the_post(); ?>
 			<?php the_content(); ?>
 		<?php endwhile; ?>
 
+	<?php if( is_product() ) {} else { ?>
 		<h2 class="recent-posts-title">Последние записи:</h2>
 
 		<ul class="recent-posts-list">
@@ -26,6 +29,7 @@ Template Name: Blog Post Single
 				</li>
 			<?php endwhile;?>
 		</ul>
+	<?php } ?>
 
 
 

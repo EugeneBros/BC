@@ -238,15 +238,15 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 10 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 20 );
 
-add_action( 'woocommerce_after_single_product_summary', "ACF_product_content", 10 );
+// add_action( 'woocommerce_after_single_product_summary', "ACF_product_content", 10 );
 
-function ACF_product_content(){
-  echo '<h2> ACF Content </h2>';
-  if (function_exists('the_field')){
-    echo '<p>Woohoo, the_field function exists! </p>';
-    the_field('test_field');
-  }
-}
+// function ACF_product_content(){
+//   echo '<h2> ACF Content </h2>';
+//   if (function_exists('the_field')){
+//     echo '<p>Woohoo, the_field function exists! </p>';
+//     the_field('test_field');
+//   }
+// }
 
 /***Woocommerse Refresh Cart***/
 
