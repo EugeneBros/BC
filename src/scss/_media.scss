@@ -80,6 +80,31 @@
 }
 
 @media screen and (max-width: 768px) {
+  .woocommerce {
+    .woocommerce-MyAccount-navigation {
+      ul {
+        flex-direction: column;
+      }
+    }
+    .woocommerce-MyAccount-content {
+      .u-columns {
+        flex-direction: column;
+        .u-column1, .u-column2 {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+    .woocommerce-customer-details {
+      .woocommerce-columns {
+        flex-direction: column;
+        .woocommerce-column {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
   .blog-post-wrap {
     .blog-post-img {
       height: 50vw;

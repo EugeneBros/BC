@@ -4,6 +4,18 @@
 }
 .woocommerce {
 	width: 100%;
+	.woocommerce-customer-details {
+		.woocommerce-columns {
+			display: flex;
+			align-content: space-between;
+			.woocommerce-column {
+				float: none;
+				width: 48%;
+				max-width: 100%;
+				flex: auto;
+			}
+		}
+	}
 }
 .woocommerce ul.products li.product {
 	text-align: center;
@@ -323,6 +335,35 @@
 				color: #202020;
 				text-decoration: none;
 			}
+		}
+	}
+}
+/***My account content***/
+.woocommerce {
+	.woocommerce-MyAccount-content {
+		.u-columns {
+			display: flex;
+			align-content: space-between;
+			.u-column1, .u-column2 {
+				float: none;
+				width: 48%;
+				max-width: 100%;
+				flex: auto;
+			}
+		}
+		padding: 18px 0;
+		a {
+			color: #202020;
+			font-weight: 600;
+		}
+	}
+	.woocommerce-EditAccountForm {
+		.woocommerce-Input {
+			height: 40px;
+			box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+			border: none;
+			outline: none;
+			padding: 0 15px;
 		}
 	}
 }
