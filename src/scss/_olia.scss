@@ -92,9 +92,9 @@
 .single-product-btn a:hover {
     color: #e6a2d2 !important;
 }
-.single-product-item:nth-child(odd) .single-product-btn a:hover {
-    border: 1px solid #e6a2d2 !important;  
-}  
+// .single-product-item:nth-child(odd) .single-product-btn a:hover {
+//     border: 1px solid #e6a2d2 !important;  
+// }
 .single-product-btn .vc_btn3-color-pink:before {
     background-color: #e6a2d2 !important;
 }
@@ -112,7 +112,7 @@
 }
 
 
-/**/ 
+/**/
 
 .one-click .one-click_subscription {
     padding: 20px 0; 
@@ -120,7 +120,7 @@
 .one-click .one-click_subscription .one-click_subscription_form .wpcf7-form .wrap-bg {
     position: relative;
     background-color: transparent;
-   padding: 12px 25px;
+    padding: 12px 25px;
     cursor: pointer; 
 }
 .one-click .one-click_subscription .one-click_subscription_form .wpcf7-form .wrap-bg::before {

@@ -2,6 +2,9 @@
 .woocommerce-result-count {
 	display: none;
 }
+.wpcf7-submit:hover {
+	cursor: pointer;
+}
 .woocommerce {
 	width: 100%;
 	.woocommerce-customer-details {
@@ -364,6 +367,27 @@
 			border: none;
 			outline: none;
 			padding: 0 15px;
+		}
+	}
+}
+/***Main page slider***/
+.owl-stage {
+	.wcps-items {
+		.wcps-items-title, .wcps-items-price, .wcps-items-cart {
+			text-align: center !important;
+		}
+		.wcps-items-title {
+			a {
+				font-size: 28px !important;
+				font-weight: 700 !important;
+				text-transform: uppercase;
+				color: $dark-color !important;
+			}
+		}
+		.wcps-items-price {
+			font-size: 20px !important;
+			text-transform: uppercase !important;
+			color: $dark-color !important;
 		}
 	}
 }

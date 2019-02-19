@@ -1,4 +1,16 @@
 @media screen and (max-width: 1200px) {
+  .main_banner_slider .item.slide3 .img-girls {
+    right: -22%;
+  }
+  .main_banner_slider .bg-text h1 {
+    font-size: 58px;
+  }
+  .main_banner_slider .bg-text h2 {
+    font-size: 34px;
+  }
+  .main_banner_slider .item.slide2 img {
+    left: -190px;
+  }
   .woocommerce a.button.alt,
   .woocommerce .cart .actions .button {
     padding: 20px 10px !important;
@@ -20,6 +32,22 @@
 }
 
 @media screen and (max-width: 992px) {
+  .main_banner_slider .item.slide3 .img-girls {
+    top: 24%;
+  }
+  .main_banner_slider .item p {
+    font-size: 20px;
+  }
+  .main_banner_slider .item.slide1 img {
+    right: -90px;
+    bottom: -50px;
+  }
+  .main_banner_slider .item.slide2 h1 {
+    font-size: 58px;
+  }
+  .main_banner_slider .bg-text h2 {
+    font-size: 34px;
+  }
   .login-wrapper {
     .tml-login {
       width: 80%;
@@ -80,6 +108,18 @@
 }
 
 @media screen and (max-width: 768px) {
+  .main-welcome-bg .wpb_column .vc_column-inner .wpb_wrapper p {
+    margin-bottom: 30px;
+  }
+  .main_banner_slider .item.slide3 .img-girls {
+    display: none;
+  }
+  .main_banner_slider .item.slide1 img {
+    bottom: -62px;
+  }
+  .main_banner_slider .item.slide2 img {
+    top: 36px;
+  }
   .woocommerce {
     .woocommerce-MyAccount-navigation {
       ul {
@@ -239,7 +279,7 @@
   }
   .main_banner .main_banner_slider {
     width: 100vw;
-    height: 175px;
+    height: 70vh;
   }
   .main_banner .main_banner_slider .container {
     width: 100%;
@@ -257,18 +297,18 @@
     padding: 7px 12px 0px 13px;
   }
   .main_banner .main_banner_slider .slide1 .slider-content .bg-text h1 {
-    font-size: 21px;
+    font-size: 34px;
   }
   .main_banner .main_banner_slider .slide1 .slider-content .bg-text h2 {
-    font-size: 16px;
+    font-size: 28px;
   }
   .main_banner .main_banner_slider .slide1 .slider-content p.parallax-text {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 19px;
     top: 100%;
     text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.75);
     width: 40%;
-    top: 58%;
+    top: 40%;
     margin-left: 3%;
   }
   .main_banner .main_banner_slider .slide1 img.parallax-img {
@@ -284,10 +324,10 @@
     margin-left: 30%;
   }
   .main_banner .main_banner_slider .slide2 .slider-content .bg-text h1 {
-    font-size: 21px;
+    font-size: 34px;
   }
   .main_banner .main_banner_slider .slide2 .slider-content .bg-text h2 {
-    font-size: 16px;
+    font-size: 28px;
   }
   .main_banner .main_banner_slider .slide2 .slider-content p.parallax-text-right {
     font-size: 10px;
@@ -299,21 +339,21 @@
   }
   .main_banner .main_banner_slider .slide2 img {
     height: 100%;
-    left: 1%;
+    left: -25%;
   }
   .main_banner .main_banner_slider .slide3 .slider-content {
-    margin-top: 50px;
-    left: 4%;
+    margin-top: 100px;
+    left: 18%;
     z-index: 99;
   }
   .main_banner .main_banner_slider .slide3 .slider-content .bg-text {
     padding: 4px 12px 4px 1px;
   }
   .main_banner .main_banner_slider .slide3 .slider-content .bg-text h1 {
-    font-size: 21px;
+    font-size: 34px;
   }
   .main_banner .main_banner_slider .slide3 .slider-content .parallax-text-left {
-    font-size: 10px;
+    font-size: 16px;
     line-height: 19px;
     top: 100%;
     text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.75);
@@ -324,7 +364,7 @@
   }
   .main_banner .main_banner_slider .slide3 .img-girl {
     height: 95%;
-    top: 3%;
+    top: -19%;
     left: 11%;
   }
   .main_banner .main-banner-button-mobile {

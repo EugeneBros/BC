@@ -17,7 +17,7 @@
 					<div class="header_nav_wrap">
 						<nav class="header_nav">
 							<div class="header_logo">
-								<a href="/">
+								<a href="<?php echo get_home_url(); ?>">
 									<img src="<?php bloginfo('template_url') ?>/src/img/logo.svg" alt="BRANDSCLUB">
 								</a>
 							</div>
@@ -58,9 +58,3 @@
 	</header>
 
 	<?php dynamic_sidebar('smartslider_area_1'); ?>
-	
-	<!-- <div class="container">
-		<div class="row">
-			<ul><?php author_log(); ?></ul>
-		</div>
-	</div> -->
