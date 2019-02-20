@@ -1251,6 +1251,9 @@ button.swiper-pagination-bullet {
 .row-block-text .vc_color-success.vc_message_box .vc_message_box-icon {
   color: #69CA6D; }
 
+.vc_btn3-container.vc_btn3-left {
+  text-align: center !important; }
+
 .blog-post-wrap {
   padding: 60px 0; }
   .blog-post-wrap .heateor_sss_sharing_container {
@@ -1480,7 +1483,7 @@ button.swiper-pagination-bullet {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: #f48ecd !important;
+    background-color: #ffea29 !important;
     -webkit-transform: skew(-20deg);
     -ms-transform: skew(-20deg);
     transform: skew(-20deg);
@@ -1493,7 +1496,7 @@ button.swiper-pagination-bullet {
   .woocommerce .coupon .button:hover,
   .woocommerce .cart .actions .button:hover,
   .woocommerce a.button.alt:hover {
-    color: #f48ecd !important;
+    color: #ffea29 !important;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s; }
@@ -1508,7 +1511,7 @@ button.swiper-pagination-bullet {
       background-color: #000000 !important; }
 
 .woocommerce .coupon .button:hover {
-  color: #f48ecd !important; }
+  color: #ffea29 !important; }
   .woocommerce .coupon .button:hover:hover:before {
     -webkit-transform: skew(-20deg) !important;
         -ms-transform: skew(-20deg) !important;
