@@ -6,6 +6,7 @@
 @import "blog";
 @import "training";
 @import "woocommerce";
+@import "affiliate";
 @import "login";
 @import "partnership";
 @import "olia";
@@ -18,6 +19,28 @@ body {
 	min-width: 320px;
 	font-size: 15px;
 	font-family: "Open Sans", sans-serif;
+}
+
+.accent-trap-list {
+  ul {
+    list-style-type: none;
+    font-size: 18px;
+    li {
+      position: relative;
+      padding-left: 30px;
+      margin-bottom: 20px;
+      &::before {
+        position: absolute;
+        content: "";
+        background-image: url(../img/ul-li.svg);
+        background-repeat: no-repeat;
+        top: 10px;
+        left: 0;
+        width: 16px;
+        height: 10px;
+      }
+    }
+  }
 }
 
 #fade {

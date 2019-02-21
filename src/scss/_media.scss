@@ -2,10 +2,10 @@
   .main_banner_slider .item.slide3 .img-girls {
     right: -22%;
   }
-  .main_banner_slider .bg-text h1 {
+  .main_banner_slider .bg-text div.h1 {
     font-size: 58px;
   }
-  .main_banner_slider .bg-text h2 {
+  .main_banner_slider .bg-text div.h2 {
     font-size: 34px;
   }
   .main_banner_slider .item.slide2 img {
@@ -42,10 +42,10 @@
     right: -90px;
     bottom: -50px;
   }
-  .main_banner_slider .item.slide2 h1 {
+  .main_banner_slider .item.slide2 div.h1 {
     font-size: 58px;
   }
-  .main_banner_slider .bg-text h2 {
+  .main_banner_slider .bg-text div.h2 {
     font-size: 34px;
   }
   .login-wrapper {
@@ -230,6 +230,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  .main-wrappper {
+    padding: 0 10px;
+  }
   .header_wrap {
     padding: 0 5px;
   }
@@ -296,10 +299,10 @@
   .main_banner .main_banner_slider .slide1 .slider-content .bg-text {
     padding: 7px 12px 0px 13px;
   }
-  .main_banner .main_banner_slider .slide1 .slider-content .bg-text h1 {
+  .main_banner .main_banner_slider .slide1 .slider-content .bg-text div.h1 {
     font-size: 34px;
   }
-  .main_banner .main_banner_slider .slide1 .slider-content .bg-text h2 {
+  .main_banner .main_banner_slider .slide1 .slider-content .bg-text div.h2 {
     font-size: 28px;
   }
   .main_banner .main_banner_slider .slide1 .slider-content p.parallax-text {
@@ -323,10 +326,10 @@
     padding: 7px 12px 0px 13px;
     margin-left: 30%;
   }
-  .main_banner .main_banner_slider .slide2 .slider-content .bg-text h1 {
+  .main_banner .main_banner_slider .slide2 .slider-content .bg-text div.h1 {
     font-size: 34px;
   }
-  .main_banner .main_banner_slider .slide2 .slider-content .bg-text h2 {
+  .main_banner .main_banner_slider .slide2 .slider-content .bg-text div.h2 {
     font-size: 28px;
   }
   .main_banner .main_banner_slider .slide2 .slider-content p.parallax-text-right {
@@ -339,7 +342,7 @@
   }
   .main_banner .main_banner_slider .slide2 img {
     height: 100%;
-    left: -25%;
+    left: -32%;
   }
   .main_banner .main_banner_slider .slide3 .slider-content {
     margin-top: 100px;
@@ -349,7 +352,7 @@
   .main_banner .main_banner_slider .slide3 .slider-content .bg-text {
     padding: 4px 12px 4px 1px;
   }
-  .main_banner .main_banner_slider .slide3 .slider-content .bg-text h1 {
+  .main_banner .main_banner_slider .slide3 .slider-content .bg-text div.h1 {
     font-size: 34px;
   }
   .main_banner .main_banner_slider .slide3 .slider-content .parallax-text-left {

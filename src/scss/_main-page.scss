@@ -806,18 +806,18 @@ button.swiper-pagination-bullet {
   transform: skew(-20deg);
 }
 
-.main_banner_slider .bg-text h1,.main_banner_slider .bg-text h2 {
+.main_banner_slider .bg-text div.h1,.main_banner_slider .bg-text div.h2 {
   text-transform: uppercase;
   line-height: 1;
   position: relative;
   z-index: 1;
 }
 
-.main_banner_slider .bg-text h1 {
+.main_banner_slider .bg-text div.h1 {
   font-size: 90px;
 }
 
-.main_banner_slider .bg-text h2 {
+.main_banner_slider .bg-text div.h2 {
   font-size: 62px;
 }
 
@@ -867,7 +867,7 @@ button.swiper-pagination-bullet {
   left: 33.3333%;
 }
 
-.main_banner_slider .item.slide2 h1 {
+.main_banner_slider .item.slide2 div.h1 {
   font-size: 75px;
 }
 
@@ -890,7 +890,7 @@ button.swiper-pagination-bullet {
   margin-top: 200px;
 }
 
-.main_banner_slider .item.slide3 h1 {
+.main_banner_slider .item.slide3 div.h1 {
   font-size: 72px;
   text-align: center;
 }

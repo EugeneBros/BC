@@ -8,7 +8,18 @@ var headerNav = $(".header_nav_list"),
     $(window).resize(function() {
         var headerHamburger = $(window).width();
         headerHamburger > 768 ? headerNav.css("display", "flex") : headerHamburger < 768 && headerNav.css("display", "none")
-});
+    });
+
+/***Log List***/
+var listNav = $('.header-log-list'),
+    listBtn = $('.header-log-btn');
+    listBtn.click(function () {
+        listNav.slideToggle(500)
+    });
+    $(window).resize(function() {
+        var listBtn = $(window).width();
+        listBtn > 768 ? listNav.css("display", "flex") : listBtn < 768 && listNav.css("display", "none")
+    });
 
 // Add buttons to quantity
 // var quantityCart = $('.woocommerce form.cart div.quantity');

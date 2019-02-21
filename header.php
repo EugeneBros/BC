@@ -36,14 +36,35 @@
 							</a>
 						</li>
 						<li class="icon">
-							<a href="<?php if ( is_user_logged_in() ) {echo '/my-account/';} else {echo '/login/';}?>">
+							<a class="header-log-btn" href="#">
 								<img src="<?php bloginfo('template_url') ?>/src/img/icons/user.svg" alt="Log in">
 							<!--	<?php function author_lt() { ?> <? if ( !is_user_logged_in() ): ?> Авторизация <? else: ?> Ваш профиль <? endif?> <?php }   ?> <?php author_lt(); ?>-->
 							</a>
+							<ul class="header-log-list">
+								<li class="header-log-item">
+									<a href="<?php if ( is_user_logged_in() ) {echo '/my-account/';} else {echo '/login/';}?>">Аккаунт</a>
+								</li>
+								<li class="header-log-item">
+									<a href="<?php 
+									$db = new WPAM_Data_DataAccess();
+									if ( is_user_logged_in() ) {
+										$currentUser = wp_get_current_user();
+										if ($db->getAffiliateRepository()->isUserAffiliate($currentUser->ID)) {
+											$affiliate = $db->getAffiliateRepository()->loadByUserId($currentUser->ID);
+											if ($affiliate->isApproved() || $affiliate->isActive()) {
+												echo '/affiliate-home/';
+											}
+										}
+									} else {
+										echo '/affiliate-home/affiliate-login/';
+									} 
+									?>">Партнерство</a>
+								</li>
+							</ul>
 						</li>
 						<li class="icon">
 							<a href="/cart/">
-								<img src="<?php bloginfo('template_url') ?>/src/img/icons/cart.svg" alt="Phone us">
+								<img src="<?php bloginfo('template_url') ?>/src/img/icons/cart.svg" alt="Cart">
 							</a>
 						</li>
 					</ul>
