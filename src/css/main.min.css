@@ -1803,6 +1803,22 @@ button.swiper-pagination-bullet {
       transition: all .5s; }
       .aff-wrap #aff-controls ul li a:hover {
         background-color: #ffea29; }
+  .aff-wrap .wrap textarea {
+    -webkit-box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+    border: none;
+    outline: none;
+    padding: 15px; }
+  .aff-wrap .wrap input {
+    height: 40px;
+    -webkit-box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.12);
+    border: none;
+    outline: none;
+    padding: 0 15px; }
+  .aff-wrap .wrap .pure-table {
+    margin-bottom: 20px;
+    width: 100%; }
 
 .login-wrapper {
   padding: 30px 0; }
